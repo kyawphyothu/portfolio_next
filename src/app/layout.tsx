@@ -11,7 +11,21 @@ const dm_mono = DM_Mono({subsets: ["latin"], weight: "400"})
 
 export const metadata: Metadata = {
   title: "Kyaw Phyo Thu",
-  description: "Web Developer",
+  description: "Welcome to Kyaw Phyo Thu's professional portfolio.",
+  openGraph: {
+    title: "Kyaw Phyo Thu's Portfolio",
+    description: "Explore the professional work and projects of Kyaw Phyo Thu.",
+    url: "https://kyawphyothu.com",
+    type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "/profile.png",
+        width: 1080,
+        height: 1080,
+      }
+    ]
+  }
 };
 
 export default function RootLayout({

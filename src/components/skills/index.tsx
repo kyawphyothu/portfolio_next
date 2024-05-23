@@ -100,11 +100,11 @@ export default function Skills() {
 	return (
 		<div className="mb-5">
 			<Title title='My Skills' />
-			<div className="flex flex-wrap content-stretch gap-3">
+			<div className="flex flex-wrap justify-evenly gap-3">
 				{
 					skills.map((s) => {
 						return (
-							<div key={s.name} className="h-14 w-52 flex items-center py-2 px-3 rounded-lg border-2 cursor-pointer hover:bg-gray-600 hover:bg-opacity-5">
+							<div key={s.name} className="h-14 w-44 flex items-center py-2 px-3 rounded-lg border-2 cursor-pointer hover:bg-gray-600 hover:bg-opacity-5">
 								<div className='mr-3'>
 									{s.image}
 								</div>
