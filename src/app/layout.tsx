@@ -10,6 +10,7 @@ import { DM_Mono } from "next/font/google";
 const dm_mono = DM_Mono({subsets: ["latin"], weight: "400"})
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://kyawphyothu.com'),
   title: "Kyaw Phyo Thu",
   description: "Welcome to Kyaw Phyo Thu's professional portfolio.",
   openGraph: {
