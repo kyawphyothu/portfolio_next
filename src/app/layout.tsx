@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { Concert_One, DM_Mono, Inter, Pacifico, Roboto_Slab, Space_Mono, Ubuntu_Mono } from "next/font/google";
 import "./globals.css";
+import { DM_Mono } from "next/font/google";
 
 // const inter = Inter({ subsets: ["latin"] });
 // const RobotoSlab = Roboto_Slab({ subsets: ["latin"] })

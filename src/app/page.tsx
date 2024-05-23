@@ -1,8 +1,6 @@
-import { Jersey_25, Pacifico, Rowdies, Space_Mono } from "next/font/google";
+import { Jersey_25, Space_Mono } from "next/font/google";
 import Image from "next/image";
 import Skills from "@/components/skills"
-import Experiences from "@/components/experiences";
-import SocialMedia from "@/components/socialmedia";
 import AboutMe from "@/components/aboutme";
 import AntDesignHtml5Filled from "@/components/icons/AntDesignHtml5Filled";
 
