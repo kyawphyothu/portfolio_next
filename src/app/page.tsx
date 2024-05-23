@@ -6,8 +6,8 @@ import AntDesignHtml5Filled from "@/components/icons/AntDesignHtml5Filled";
 
 // const pacifico = Pacifico({ subsets: ["latin"], weight: "400" });
 // const rowdies = Rowdies({ subsets: ["latin"], weight: "400" });
-const jersey_25 = Jersey_25({subsets: ["latin"], weight: "400"});
 const space_mono = Space_Mono({ subsets: ["latin"], weight:  "400" })
+const jersey_25 = Jersey_25({ subsets: ["latin"], weight: "400", display: "swap", adjustFontFallback: false});
 
 
 export default function Home() {

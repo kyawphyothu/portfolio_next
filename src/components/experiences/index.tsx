@@ -35,7 +35,7 @@ export default function Experiences() {
 				{
 					experiences.map(i => {
 						return (
-							<Card>
+							<Card key={i.name}>
 								<CardHeader>
 									<CardTitle>{i.title}</CardTitle>
 										<Badge className="w-fit">web_app</Badge>
